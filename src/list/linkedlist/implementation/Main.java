@@ -22,26 +22,7 @@ public class Main {
 //    	System.out.println(numbers.indexOf(20));
     	
     	LinkedList.ListIterator i = numbers.listIterator();
-//    	System.out.println(i.next());
-//    	System.out.println(i.next());
-//    	System.out.println(i.hasNext());
-//    	System.out.println(i.next());
-//    	System.out.println(i.hasNext());
-//    	while(i.hasNext()) {
-//    		System.out.println(i.next());
-//    	}
-    	
-//    	i.add(5);
-//    	i.next();
-//    	i.add(15);
-//    	System.out.println(numbers);
-    	
-    	while(i.hasNext()) {
-    		if((int)i.next() == 20) {
-    			i.remove();
-    		}
-    	}
-    	System.out.println(numbers);
+    	i.add(5);
     	
     }
     
