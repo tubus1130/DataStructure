@@ -2,7 +2,7 @@ package boj_03_datastructure;
 
 import java.util.Scanner;
 
-public class BOJ_1546 {
+public class BOJ_02_1546 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
