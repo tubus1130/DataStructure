@@ -15,5 +15,5 @@ public class BOJ_01_11720 {
 		}
 		System.out.println(sum);
 	}
-
+	
 }
