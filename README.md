@@ -4,6 +4,6 @@
 2. LinkedList
 3. DoublyLinkedList
 
-알고리즘
-
-백준
+백준 알고리즘
+1. 구간 합
+2. 투포인터
