@@ -14,6 +14,7 @@ public class BOJ_01_11720 {
 			sum += cNum[i] - '0';
 		}
 		System.out.println(sum);
+		sc.close();
 	}
 	
 }

@@ -25,5 +25,6 @@ public class BOJ_06_2018 {
 			}
 		}
 		System.out.println(count);
+		sc.close();
 	}
 }

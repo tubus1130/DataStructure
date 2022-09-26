@@ -2,7 +2,7 @@ package b_sort;
 
 import java.util.Scanner;
 
-public class B_23881 {
+public class B_23882 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -13,6 +13,7 @@ public class B_23881 {
 		for(int i=0; i<N; i++) {
 			A[i] = sc.nextInt();
 		}
+		
 		int cnt = 0;
 		for(int i=0; i<N-1; i++) {
 			int max = A[0];
@@ -30,7 +31,9 @@ public class B_23881 {
 				cnt++;
 			}
 			if(cnt == K) {
-				System.out.print(A[max_num] + " " + A[N-1-i]);
+				for(int k=0; k<N; k++) {
+					System.out.print(A[k] + " ");
+				}
 			}
 		}
 		if(cnt < K) {
@@ -39,4 +42,5 @@ public class B_23881 {
 		
 		sc.close();
 	}
+
 }

@@ -38,5 +38,6 @@ public class BOJ_11_1874 {
 		if(result) {
 			System.out.println(sb.toString());
 		}
+		sc.close();
 	}
 }
